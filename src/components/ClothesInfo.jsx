@@ -5,21 +5,21 @@ export default function ClothesInfo(props) {
   function getClothes(temp) {
     let imgSrc = "";
     if (temp <= 5) {
-      imgSrc = "/clothesImgs/icons8-puffer-coat-64.png";
+      imgSrc = "./clothesImgs/icons8-puffer-coat-64.png";
     } else if (temp <= 9) {
-      imgSrc = "/clothesImgs/icons8-scarf-64.png";
+      imgSrc = "./clothesImgs/icons8-scarf-64.png";
     } else if (temp <= 11) {
-      imgSrc = "/clothesImgs/icons8-jacket-64.png";
+      imgSrc = "./clothesImgs/icons8-jacket-64.png";
     } else if (temp <= 16) {
-      imgSrc = "/clothesImgs/icons8-hoodie-64.png";
+      imgSrc = "./clothesImgs/icons8-hoodie-64.png";
     } else if (temp <= 19) {
-      imgSrc = "/clothesImgs/icons8-cardigan-64.png";
+      imgSrc = "./clothesImgs/icons8-cardigan-64.png";
     } else if (temp <= 22) {
-      imgSrc = "/clothesImgs/icons8-long-sleeve-64.png";
+      imgSrc = "./clothesImgs/icons8-long-sleeve-64.png";
     } else if (temp >= 26) {
-      imgSrc = "/clothesImgs/icons8-t-shirt-64.png";
+      imgSrc = "./clothesImgs/icons8-t-shirt-64.png";
     } else if (temp >= 27) {
-      imgSrc = "/clothesImgs/icons8-tank-top-64.png";
+      imgSrc = "./clothesImgs/icons8-tank-top-64.png";
     }
     return imgSrc;
   }
